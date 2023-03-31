@@ -1,7 +1,7 @@
 {
-  "name": "antd-dayjs-webpack-plugin",
-  "version": "1.0.6",
-  "description": "Day.js webpack plugin for Ant Design (antd)",
+  "name": "@wangxyu/antd-dayjs-webpack-plugin",
+  "version": "1.0.7",
+  "description": "Day.js webpack5 plugin for Ant Design (antd)",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +27,9 @@
     "url": "https://github.com/ant-design/antd-dayjs-webpack-plugin"
   },
   "author": "iamkun",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

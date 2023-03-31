@@ -1,5 +1,10 @@
 # antd-dayjs-webpack-plugin
 
+fork  https://github.com/ant-design/antd-dayjs-webpack-plugin
+
+解决 webpack5 typeError: getOptions is not a function
+
+
 [![NPM version](http://img.shields.io/npm/v/antd-dayjs-webpack-plugin.svg?&colorB=51C838&style=flat-square)](https://www.npmjs.org/package/antd-dayjs-webpack-plugin)
 
 A webpack plugin for [Day.js](https://github.com/iamkun/dayjs). 一个 Day.js 的 Webpack 插件。

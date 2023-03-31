@@ -1,7 +1,6 @@
-const { getOptions } = require('loader-utils')
 
 module.exports = function loader(source) {
-  const options = getOptions(this)
+  const options = this.getOptions()
 
   options.plugins.forEach((plugin) => {
     source += `var ${plugin} = require('dayjs/plugin/${plugin}');`
